@@ -1,0 +1,5 @@
+1、从控制器获取数据：先把所需要的数据写到scope中，在html代码中需要时用{{ }}应用。用ng-model实现文本域的数据双向绑定。
+2、把导航栏数据存入scope中，用ng-repeat实现循环输出导航栏内容。
+   下拉菜单：先把需要下拉的菜单display设成none，然后用find指令找到菜单的上级，用on指令加上点击事件，点击后display属性为none的换为block。
+3、粉丝排序：把粉丝的信息存入scope中，用ng-repeat循环输出 用orderBy进行排序。
+4、视图和路由：先在html中找一个元素用作视图，再给按钮写上href地址#/+名称，然后再写config，用templateUrl实现 转换视图。
